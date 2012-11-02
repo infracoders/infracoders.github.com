@@ -79,7 +79,7 @@ h4 {
 }
 
 .navbar .brand {
-	background: url("../img/logo.png") no-repeat left center;
+	background: url("http://static.infrastructurecoders.com/u/13184086/ic/img/logo.png") no-repeat left center;
 	font-family: 'Contrail One', serif;
 	font-weight: 700;
 	font-size: 24px;
@@ -275,7 +275,13 @@ h4 {
 	border-bottom: 1px solid #ffffff;
 }
 
-#about .mugshots {
+.about .mugshots {
 	margin: 30px 5px 30px 5px;
+}
+.github {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
 }
 
