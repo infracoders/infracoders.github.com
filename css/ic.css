@@ -79,7 +79,7 @@ h4 {
 }
 
 .navbar .brand {
-	background: url("http://static.infrastructurecoders.com/u/13184086/ic/img/logo.png") no-repeat left center;
+	background: url("../img/logo.png") no-repeat left center;
 	font-family: 'Contrail One', serif;
 	font-weight: 700;
 	font-size: 24px;
