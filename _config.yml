@@ -1,0 +1,26 @@
+pygments: true
+permalink: /:categories/:year/:month/:title.html
+auto: true
+exclude: README.md
+
+url: http://infrastructurecoders.com
+description: Infrastructure as code with InfrastructureCoders
+twitter:
+  username: infracoders
+  url: https://twitter.com/infracoders
+github:
+  username: infracoders
+  url: https://github.com/infracoders
+gplus:
+  userid: 117190071091578306048
+  url: https://plus.google.com/117190071091578306048/posts
+youtube:
+  username: infracoders
+  url: http://www.youtube.com/user/infracoders
+meetup:
+  url: http://meetup.infrastructurecoders.com
+
+ga:
+  enabled: true
+  account: UA-34075218-1
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Infrastructure Coders</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="/css/bootstrap-responsive.css" type="text/css">
+		<link rel="stylesheet" href="/css/ic.css" type="text/css">
+		<link rel="stylesheet" href="/css/ic-responsive.css" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<section class="container">
+			<nav class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<a href="http://infrastructurecoders.com/" class="brand">InfrastructureCoders</a>
+						<ul class="nav">
+							<li><a href="/">Home </a></li>
+							<li><a href="/#about">About </a></li>
+							<li><a href="/events">Events </a></li>
+						</ul>
+						<div class="github">
+							<a href="{{ site.github.url }}/infracoders.github.com"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</section>
+    {{ content }}
+		<footer class="container footer-box"> 
+			<hr class="shadow-line" />
+			<nav class="links"> 
+				<a href="{{ site.twitter.url }}"><img src="/img/twitter.png" alt="twitter"></a>
+				<a href="{{ site.meetup.url }}"><img src="/img/meetup.png" alt="meetup"></a> 
+				<a href="{{ site.youtube.url }}"><img src="/img/youtube.png" alt="youtube"></a> 
+				<a href="{{ site.gplus.url }}"><img src="/img/googleplus.png" alt="google+"></a>
+			</nav>
+			<p>Built by code.</p>
+		</footer>
+		<script src="js/jquery-1.8.0.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+    {% if site.ga.enabled %}
+    <script type='text/javascript'>
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', '{{ site.ga.account }}']);
+     _gaq.push(['_trackPageview']);
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+   </script>
+   {% endif %}
+
+	</body>
+</html>
