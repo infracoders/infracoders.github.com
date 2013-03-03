@@ -12,7 +12,7 @@ permalink: /events/index.html
 </section>
 
 <section class="container">
-{% for post in site.categories.events %}
+{% for post in site.categories.events reversed %}
 <div class="span2 ">{{ post.date | date: "%B %e, %Y" }}</div>
 <div class="span6"> <a href="{{ post.link }}" target="_blank">{{ post.title }}</a> </div>
 <div class="span3">{{ post.location }}</div>
