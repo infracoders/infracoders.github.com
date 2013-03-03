@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Events"
-permalink: /events/index.html
+permalink: /events.html
 ---
 <section class="container">
 <div class="row">
