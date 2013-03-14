@@ -12,10 +12,14 @@ permalink: /events.html
 </section>
 
 <section class="container">
+{% capture now %}{{ site.time | date: '%Y%m%d' }}{% endcapture %}
 {% for post in site.categories.events reversed %}
+{% capture postdate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
+{% if postdate >= now %}
 <div class="span2 ">{{ post.date | date: "%B %e, %Y" }}</div>
 <div class="span6"> <a href="{{ post.link }}" target="_blank">{{ post.title }}</a> </div>
 <div class="span3">{{ post.location }}</div>
+{% endif %}
 {% endfor %}
 </section>	
 
