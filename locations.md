@@ -16,7 +16,6 @@ location: Melbourne, Australia
 <div class="container">
 <div class="row">
 {% for post in site.categories.locations reversed %}
-{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 <article class="span4 center-align">
 <a href="{{ post.link }}"><img src="http://maps.googleapis.com/maps/api/staticmap?center={{ post.location }}&zoom=12&size=350x150&maptype=roadmap&sensor=false" />
 <h3>{{ post.location }}</h3></a>
