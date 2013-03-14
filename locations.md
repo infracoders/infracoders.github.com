@@ -28,7 +28,7 @@ location: Melbourne, Australia
 <section class="container">
 <div class="row">
 <header class="span12 center-align">
-<h4>If you would like to start your a InfrastructureCoders meetup in your city, please contact <a href="https://twitter.com/geekle">Matt</a> or <a href="https://twitter.com/dlutzy">David</a>.</h4>
+<h4>If you would like to start an InfrastructureCoders meetup in your city, please contact <a href="https://twitter.com/geekle">Matt</a> or <a href="https://twitter.com/dlutzy">David</a>.</h4>
 </header>
 </div>
 </section>
