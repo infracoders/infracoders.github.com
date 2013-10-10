@@ -1,6 +1,8 @@
+safe: true
+lsi: false
 pygments: true
 permalink: /:categories/:year/:month/:title.html
-exclude: ["README.md"]
+exclude: ["README.md", "vendor"]
 
 url: http://infrastructurecoders.com
 description: Infrastructure as code with InfrastructureCoders
