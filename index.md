@@ -16,7 +16,7 @@ permalink: /index.html
 <div class="container">
 <div class="row">
 <article class="span4 center-align">
-<img src="http://maps.googleapis.com/maps/api/staticmap?center=melbourne&zoom=12&size=350x150&maptype=roadmap&sensor=false" alt="melbourne"/>
+<img src="http://maps.googleapis.com/maps/api/staticmap?center=melbourne&amp;zoom=12&amp;size=350x150&amp;maptype=roadmap&amp;sensor=false" alt="melbourne"/>
 <h3>Made in Melbourne</h3>
 <p>Showcasing some of the greatest workplaces in the Melbourne metropolitan area, Infrastructure Coders is hosted by a different company every meetup.</p>
 </article>

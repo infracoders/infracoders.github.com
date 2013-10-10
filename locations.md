@@ -17,7 +17,7 @@ location: Melbourne, Australia
 <div class="row">
 {% for post in site.categories.locations reversed %}
 <article class="span4 center-align">
-<a href="{{ post.link }}"><img src="http://maps.googleapis.com/maps/api/staticmap?center={{ post.location }}&zoom=12&size=350x150&maptype=roadmap&sensor=false" />
+<a href="{{ post.link }}"><img src="http://maps.googleapis.com/maps/api/staticmap?center={{ post.location }}&amp;zoom=12&amp;size=350x150&amp;maptype=roadmap&amp;sensor=false" />
 <h3>{{ post.location }}</h3></a>
 </article>
 {% endfor %}
