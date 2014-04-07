@@ -7,7 +7,10 @@ permalink: /index.html
   <div class="row">
 <header class="highlight span12">
 <h2>Infrastructure as code with <strong>InfrastructureCoders</strong></h2>
-<p><a href="{{ site.meetup.url }}/join/" class="join">Join Us</a></p>
+<p>
+  <a href="{{ site.meetup.url }}/join/" class="join">Join Us</a>
+  <a href="http://www.youtube.com/user/infracoders" class="join">Watch Us</a>
+</p>
 <p>Melbourne's infrastructure as code meetup.</p>
 </header>
 </div> 
