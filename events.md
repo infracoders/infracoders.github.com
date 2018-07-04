@@ -6,7 +6,7 @@ permalink: /events.html
 <section class="container">
 <div class="row">
 <header class="highlight span12">
-<h2>Infrastructure as code related events <strong>2013</strong></h2>
+<h2>Infrastructure as code related events</h2>
 </header>
 </div> 
 </section>
