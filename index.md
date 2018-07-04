@@ -46,7 +46,9 @@ permalink: /index.html
 </section> 
 <section class="container">    
 <div class="row">
-<div id="CommunityInviter" class="span4 center-align"></div>
+<article class="span4 center-align">
+<div id="CommunityInviter"></div>
+</article>
 </div>
 </section>         
 <section class="container">
