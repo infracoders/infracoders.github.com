@@ -25,7 +25,7 @@ permalink: /events.html
 
 <section class="container">
 <div class="row">
-<header class="span12 offset2">
+<header class="span12 center-align">
 <h4>If you would like to add an event please submit a pull request. <a href="https://github.com/infracoders/infracoders.github.com" target="_blank">https://github.com/infracoders/infracoders.github.com</a></h4>
 </header>
 </div>
