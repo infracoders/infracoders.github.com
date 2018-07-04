@@ -45,7 +45,17 @@ permalink: /index.html
 </div> 
 </section> 
 <section class="container">    
-<div id="CommunityInviter"></div>
+<div id="CommunityInviter" class="span4"></div>
+</section>         
+<section class="container">
+<div class="row">
+<div class="highlight span12">
+<h3>Learn the tips and tricks with <strong>InfrastructureCoders</strong></h3> 
+<h3 class="subhead">The technology agnostic infrastructure as code meetup.</h3>
+<p><a href="{{ site.meetup.url }}/join/" class="join">Join Us</a></p>
+</div>
+</div>
+</section>
 <script>
   window.CommunityInviterAsyncInit = function () {
     CommunityInviter.init({
@@ -62,13 +72,3 @@ permalink: /index.html
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'Community_Inviter'));
 </script>
-</section>         
-<section class="container">
-<div class="row">
-<div class="highlight span12">
-<h3>Learn the tips and tricks with <strong>InfrastructureCoders</strong></h3> 
-<h3 class="subhead">The technology agnostic infrastructure as code meetup.</h3>
-<p><a href="{{ site.meetup.url }}/join/" class="join">Join Us</a></p>
-</div>
-</div>
-</section>
