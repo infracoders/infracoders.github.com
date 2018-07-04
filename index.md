@@ -56,7 +56,7 @@ permalink: /index.html
 <div class="highlight span12">
 <h3>Learn the tips and tricks with <strong>InfrastructureCoders</strong></h3> 
 <h3 class="subhead">The technology agnostic infrastructure as code meetup.</h3>
-<p><a href="{{ site.meetup.url }}/join/" class="join">Join Us</a></p>
+<p><a href="/locations/" class="join">Join Us</a></p>
 </div>
 </div>
 </section>
