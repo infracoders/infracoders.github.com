@@ -8,7 +8,7 @@ permalink: /index.html
 <header class="highlight span12">
 <h2>Infrastructure as code with <strong>InfrastructureCoders</strong></h2>
 <p>
-  <a href="{{ site.meetup.url }}/join/" class="join">Join Us</a>
+  <a href="/locations/" class="join">Join Us</a>
   <a href="http://www.youtube.com/user/infracoders" class="join">Watch Us</a>
 </p>
 <p>Melbourne's infrastructure as code meetup.</p>
@@ -44,12 +44,35 @@ permalink: /index.html
 </div>
 </div> 
 </section> 
+<section class="container">    
+<div class="row">
+<article class="span4 offset4">
+<div id="CommunityInviter"></div>
+</article>
+</div>
+</section>         
 <section class="container">
 <div class="row">
 <div class="highlight span12">
 <h3>Learn the tips and tricks with <strong>InfrastructureCoders</strong></h3> 
 <h3 class="subhead">The technology agnostic infrastructure as code meetup.</h3>
-<p><a href="{{ site.meetup.url }}/join/" class="join">Join Us</a></p>
+<p><a href="/locations/" class="join">Join Us</a></p>
 </div>
 </div>
 </section>
+<script>
+  window.CommunityInviterAsyncInit = function () {
+    CommunityInviter.init({
+      app_url:'infracoders',
+      team_id:'infracoders'
+   })
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "https://communityinviter.com/js/communityinviter.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'Community_Inviter'));
+</script>
