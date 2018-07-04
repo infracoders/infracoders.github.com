@@ -44,6 +44,25 @@ permalink: /index.html
 </div>
 </div> 
 </section> 
+<section class="container">    
+<div id="CommunityInviter"></div>
+<script>
+  window.CommunityInviterAsyncInit = function () {
+    CommunityInviter.init({
+      app_url:'infracoders',
+      team_id:'infracoders'
+   })
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "https://communityinviter.com/js/communityinviter.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'Community_Inviter'));
+</script>
+</section>         
 <section class="container">
 <div class="row">
 <div class="highlight span12">
