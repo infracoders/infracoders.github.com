@@ -6,12 +6,12 @@ permalink: /index.html
 <section class="container">
   <div class="row">
 <header class="highlight span12">
-<h2>Infrastructure as code with <strong>InfrastructureCoders</strong></h2>
+<h2>Infrastructure as code with <strong>Infracoders</strong></h2>
 <p>
   <a href="/locations/" class="join">Join Us</a>
   <a href="http://www.youtube.com/user/infracoders" class="join">Watch Us</a>
 </p>
-<p>Melbourne's infrastructure as code meetup.</p>
+<p>The infrastructure as code meetup.</p>
 </header>
 </div> 
 </section>
@@ -21,7 +21,7 @@ permalink: /index.html
 <article class="span4 center-align">
 <img src="http://maps.googleapis.com/maps/api/staticmap?center=melbourne&amp;zoom=12&amp;size=350x150&amp;maptype=roadmap&amp;sensor=false" alt="melbourne"/>
 <h3>Made in Melbourne</h3>
-<p>Showcasing some of the greatest workplaces in the Melbourne metropolitan area, Infrastructure Coders is hosted by a different company every meetup.</p>
+<p>Showcasing some of the greatest workplaces, Infrastructure Coders (infracoders) is hosted by a different company every meetup.</p>
 </article>
 <article class="span4 center-align">
 <img class="mugshots" src="img/dlutzy.png" alt="twitter"/>
@@ -54,7 +54,7 @@ permalink: /index.html
 <section class="container">
 <div class="row">
 <div class="highlight span12">
-<h3>Learn the tips and tricks with <strong>InfrastructureCoders</strong></h3> 
+<h3>Learn the tips and tricks with <strong>Infracoders</strong></h3> 
 <h3 class="subhead">The technology agnostic infrastructure as code meetup.</h3>
 <p><a href="/locations/" class="join">Join Us</a></p>
 </div>
